@@ -1,0 +1,35 @@
+header{
+    text-align: center;
+  }
+  
+  body{
+    font-size: 1.6em;
+  }
+    
+  .addBurgerDiv{
+    text-align: center;
+  }
+  
+  #addBurgerForm input[type=text]{
+    width:25vw !important;
+    font-size: 16px;
+  }
+  
+  .devour-burger, .remove-burger{
+   float: right;
+  }
+  
+  .headerImage{
+    height: 150px;
+    widows: 150px;
+  }
+  
+  .burgerIcon{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+  }
+  
+  .submitButton{
+    background-color: #649c17;
+  }

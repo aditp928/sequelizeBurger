@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <ul class="list-group">
+      {{#each burgers}}
+        {{#unless devoured}}
+          {{> burger/burger-block}}
+        {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
+  <div class="col-sm-12 col-md-6">
+    <ul class="list-group">
+      {{#each burgers}}
+        {{#if devoured}}
+          {{> burger/burger-block}}
+        {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+</div>
