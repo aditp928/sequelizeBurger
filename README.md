@@ -8,10 +8,6 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 
 This app stores every burger in a database, whether devoured or not.
 
-Utilitzes MySQL, Node, Express, Handlebars.
+Utilitzes Node, Express, Handlebars.
 
-
-Application is hosted on heroku.
-
-
-
+Sequelize, a promise-based ORM for Node.js.
