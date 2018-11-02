@@ -8,6 +8,6 @@ Each burger in the waiting area also has a Devour it! button. When the user clic
 
 This app stores every burger in a database, whether devoured or not.
 
-Utilitzes Node, Express, Handlebars.
+Utilitzes Node, Express, Handlebars
 
 Sequelize, a promise-based ORM for Node.js.  Practices the use of CRUD operations to query the SQL database.
